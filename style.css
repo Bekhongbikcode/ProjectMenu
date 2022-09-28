@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+}
+
+.containt {
+    position: fixed;
+    background-color: white;
+    padding: 10px 15px;
+    box-shadow: #000000 0px 2px 5px 0px;
+    line-height: 50px;
+    letter-spacing: 4px;
+    width: 100%;
+}
+
+.taskbar_menu_left a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    float: left;
+    text-align: center;
+    width: 250px;
+}
+
+.taskbar_menu_right a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    float: right;
+    width: 120px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+.taskbar_menu_left a:hover {
+    background-color: #cccc;
+    font-weight: bold;
+    font-size: large;
+}
+
+.taskbar_menu_right a:hover {
+    background-color: #cccc;
+    font-weight: bold;
+    font-size: large;
+}
+
+.image_home img {
+    width: 100%;
+}
+
+.image_home h1 {
+    position: absolute;
+    margin-top: 550px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+    line-height: 40px;
+}
+
+#about {
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 80px;
+    height: 600px;
+}
+
+.img_01 {
+    float: left;
+    text-align: center;
+    width: 200px;
+}
+
+.infor_01 {
+    float: right;
+    padding-bottom: 40px;
+    width: 550px;
+}
+
+.img_01 img {
+    height: 620px;
+    width: 500px;
+}
+
+.infor_01 p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    height: 180px;
+    width: 502px;
+
+}
+
+#menu {
+    padding-left: 82px;
+    padding-right: 82px;
+    height: 1000px;
+}
+
+.img_02 {
+    float: right;
+    text-align: center;
+}
+
+.infor_02 {
+    float: left;
+    padding-top: 100px;
+}
+
+.img_02 img {
+    height: 800px;
+    width: 500px;
+    padding-top: 100px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.infor_01 h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.infor_01 h5 {
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+
+.p2 {
+    color: grey;
+}
+
+.infor_02 h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.infor_02 h4 {
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+}
+
+.infor_02 p {
+    color: grey;
+    padding-bottom: 40px;
+}
+
+#contact {
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-bottom: 100px;
+}
+
+.conntact_content h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+    line-height: 54px;
+    font-weight: 200;
+}
+
+.conntact_content p {
+    padding-top: 0;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.conntact_content b {
+    color: #607d8b;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+.conntact_content input {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+.conntact_content button {
+    font-family: 'Times New Roman';
+    height: 40px;
+    width: 150px;
+    border: none;
+}
+
+.conntact_content button:hover {
+    background-color: rgb(163, 162, 162);
+}
+
+.footer_Menu {
+    background-color: #f1f1f1;
+    font-size: 15px;
+    line-height: 22.5px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_Menu p{
+    padding-top: 30px;
+    color: black;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+}
